@@ -19,6 +19,11 @@
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
 		</div>
 
+		{{#if viewAlt}}
+		Min! <button class="likeBtn">Like</button>
+
+		{{else}}
+
 		<h4>Projects</h4>
 		{{#each projects}}
 			<div class="project" id="{{id}}">
@@ -32,6 +37,8 @@
 				</div>
 			</div>
 		{{/each}}
+
+		{{/if}}
 
 
 	<script src="https://code.jquery.com/jquery.js"></script>

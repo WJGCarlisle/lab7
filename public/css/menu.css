@@ -1,0 +1,195 @@
+/*Container for all dropdown content */
+#cancel {
+    background-color: #FFCF00;
+}
+
+.container {
+    z-index: 10;
+    position: fixed; 
+    left: .5vw; 
+    top: 45vw;
+}
+
+body {
+    background-color: #FDF8FF;
+ 
+
+}
+
+.btn-default {
+    background: #FFCF00;
+}
+
+/* Dropdown Button */
+#dropbtn {
+    color: black;
+    padding: 16px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #FFCF00;
+}
+
+
+/* Dropdown button on hover & focus */
+#dropbtn:hover, #dropbtn:focus {
+    background-color: #FFCF00;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    margin-top: -5vw;
+}
+
+.dropdownMC {
+    margin-top: 0vw;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    background-color: #F7EF6A;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    /*border-top: 1px solid black;
+    border-left: 1px solid black;*/
+}
+
+.navigated {
+    border-bottom: 1px solid black;
+}
+
+.navigated:hover, .navigated:focus {
+    background-color: black;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+h4 {
+    text-align: center;
+}
+
+.header {
+    margin-left: 30vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+.headerMC {
+    margin-left: 20%;
+    margin-top: -12vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.headerJM {
+    margin-left: 15%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5vw;
+    font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  float: left;
+  text-align: left;
+
+
+  margin-right: 5vw;
+  margin-top: 5vw;
+}
+
+li {
+  padding:13px;
+  border-color: black;
+  border-bottom: 3px solid black;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+
+}
+
+#meetingList{
+    width: 90%;
+}
+
+#joinedMeetings{
+    width: 90%;
+}
+
+#addMeetingButton {
+    z-index: 1; 
+    position: fixed; 
+    right: 12vw; 
+    bottom: 6vw;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* addMeeting button on hover & focus */
+#addMeetingButton:hover, #addMeetingButton:focus {
+    background-color: #2980B9;
+}
+ 
+#addFriendForm {
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+#friendsHeader{
+    margin-top: 5vw;
+    padding-top: 4vw;
+}
+
+#friendsList {
+    margin-top: 15vw;
+}
+
+#submitBtn {
+    width: 100%;
+}
+
+#friendsHeader{
+    margin-right: 28%;
+
+
+}
+
+#instruction {
+    margin-top: -2vw;
+}
+
+.listElements {
+    background-color:white;
+}
+
+#meetingDelete {
+    text-align: center;
+}
+
+body {
+    background-image: url('/img/marble.jpg');
+}

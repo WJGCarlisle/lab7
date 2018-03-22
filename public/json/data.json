@@ -1,0 +1,40 @@
+{
+	"users": [
+		{
+			"name": "Kyle Sit",
+			"username": "ksit12",
+			"password": "yes",
+			"meetingsCreated": [],
+			"meetingsJoined": [		
+				{	
+					"meetingLocation": "Geisel",
+					"meetingName": "Geisel",
+					"time": "2:00",
+					"finished" : "false"
+				}
+			],
+			"friends": [
+				{
+					"name": "Daniel Nuttall",
+					"username": "DzNuttz",
+					"profilePic": "http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Douglas_Engelbart_in_2008.jpg/972px-Douglas_Engelbart_in_2008.jpg"			
+				},
+				{
+					"name": "Glen Carlisle",
+					"username": "Vanemoinen",
+					"profilePic": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Ivan_Sutherland_at_CHM.jpg"			
+				},
+				{
+					"name": "Kyle Sit",
+					"username": "Ksit",
+					"profilePic": "http://amhistory.si.edu/ogmt/images/upload/women-mathematicians/AHB2012q06025.jpg"
+				},
+				{
+					"name": "Allan Rayman",
+					"username": "Wolf512",
+					"profilePic": "http://uploads.edubilla.com/awards-winners/92/b4/allen-newell.jpg"
+				}
+			]
+		}
+	]
+}

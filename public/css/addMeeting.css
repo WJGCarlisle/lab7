@@ -1,0 +1,68 @@
+.inputField {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	float:right;
+	margin-left: 100%;
+}
+
+body {
+	 background-color: #F0F8FF;
+}
+
+.label {
+	width: 30%;
+}
+
+
+#submit {
+
+	margin-right: 0%;
+}
+
+#meetingPlace {
+	text-align: center;
+	
+}
+
+#checkbox {
+	
+	margin-right: 30%;
+}
+
+#cancel{
+	margin-top: 4vw;
+	width:20%;
+	background-color: #FFCF00;
+}
+
+h3{
+	text-align: center;
+	margin-right: 4vw;
+	float:right;
+}
+
+#submitBtn{
+	width:100%;
+	background-color: #FFCF00;
+}
+
+body {
+	margin-left: 6vw;
+	margin-right: 6vw;
+	margin-top: 6vw;
+}
+
+.p{
+	font-size: 100px;
+	font-weight: bold;
+}
+
+body {
+    background-image: url('/img/marble.jpg');
+}

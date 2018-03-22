@@ -1,0 +1,118 @@
+<!doctype html>
+
+<html>
+	<head>
+		<!-- Google Analytics Content Experiment code 
+		<script>function utmx_section(){}function utmx(){}(function(){var
+			k='170908741-1',d=document,l=d.location,c=d.cookie;
+			if(l.search.indexOf('utm_expid='+k)>0)return;
+			function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+				indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+					length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+				'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+					'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+				'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+				valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+				'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+			</script><script>utmx('url','A/B');</script>
+			 End of Google Analytics Content Experiment code -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115142761-1"></script>
+		<!--<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-115142761-1');
+		</script>-->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-115142761-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+		<title>Live for the Moments!</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="/css/addMeeting.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		{{#if viewAlt}}
+		<form id="addMeetingForm" role="form" method="get" action="/addMeetingB">
+		{{else}}
+		<form id="addMeetingForm" role="form" method="get" action="/addMeeting">
+		{{/if}}
+			<div>
+			<button id="cancel" class="btn btn-default" type="button"> Cancel</button>
+
+			<h3>Your Happy Moment!</h3>
+			</div>
+			 <br>
+			 <br>
+			<div id="meetingPlace">	
+			</div>
+
+				<br>
+
+			<div>
+				<input type="hidden" id="vicinity" name="vicinity" value="">
+				<input type="hidden" id="address" name="address" value="">
+			</div>
+
+			<div class="form-group">
+	          <label for="meetingName">Description of Moment:</label>
+	          <input type="text" class="inputField form-control" id="meetingName" placeholder="Name" name="meetingName">
+	        </div>
+
+	        <br>
+
+			<div class="form-group">
+	          <label for="meetingTime">Time of Joy:</label>
+	          <input type="text" class="inputField form-control" id="meetingTime" placeholder="00:00" name="meetingTime">
+	        </div>
+
+	        <br>
+
+	        <div>
+			<label for= "inviteFriends">Who Was There?</label>
+			<input class="inputField" id="friendName" type="text" placeholder="ex: Johnny">
+			</div>
+
+			<br>
+			<br>
+
+			<label for= "selectArivals">How Long Did It Last?</label>
+	  			<div>
+	  				<input type="checkbox" id="ten" name="ten" value="ten"> Over 30 Minutes <br>
+	  			</div>
+	  			<div>
+	  				<input type="checkbox" id="five" name="five" value="five"> 30 Minutes or Less <br>
+	  			</div>
+	  			<div>
+	  				<input type="checkbox" id="two" name="two" value="two"> One Wonderful Moment <br>
+	  			</div>
+
+	  			<br>
+	  	
+
+	  		<div>
+	  			<input type="submit" id="submitBtn" class="btn btn-default" value="Log it!"></input>
+  		
+		
+
+			</div>
+
+		</form>
+
+		<script src="/js/createMeeting.js"></script>
+	</body>
+</html>

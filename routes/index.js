@@ -1,15 +1,16 @@
-var projects = require('../projects.json');
 
 /*
- * GET home page.
+ * GET login.
  */
 
-exports.view = function(request, response){
-  	response.render('index', projects);
-  	projects["viewAlt"]=false;
+var data = require("../public/json/data.json");
+
+exports.view = function(req, res){
+	data['viewAlt'] = false;
+ 	res.render('index',data);
 };
 
 exports.viewAlt = function(request, response){
-	response.render('index', projects);
-	projects["viewAlt"]=true;
+	data['viewAlt'] = true;
+  	response.render('index', data);
 };

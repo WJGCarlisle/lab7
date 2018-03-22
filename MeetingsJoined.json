@@ -1,0 +1,12 @@
+{
+	"meetingsJoined": [
+		{
+			"meetingLocation": "string",
+			"altitude": " alt ",
+			"longitude": "long",
+			"meetingName": "Geisel",
+			"time": "2:00",
+			"finished" : "false"			
+		}
+	]
+}
